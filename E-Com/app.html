@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <input id="navbar__checkbox" type="checkbox" class="navbar__checkbox" />
+      <label for="navbar__checkbox" class="navbar__button"></label>
+      <img src="images/header.svg" alt="" class="navbar__image" />
+      <ul class="menu">
+        <li class="menu__item menu__home"><a href="#home">Home</a></li>
+        <li class="menu__item menu__about"><a href="#about">About</a></li>
+        <li class="menu__item menu__contact">
+          <a href="#contact">Contact Us</a>
+        </li>
+        <li class="menu__item menu__off">
+          <span class="menu__crossmark">&#x2716;</span>
+          <label for="navbar__checkbox" class="menu__button-off"></label>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <section class="new-app" id="home">
+        <div class="new-app__text-content">
+          <h2 class="big-header">New E-Commerce App the best for You</h2>
+          <p class="new-app__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            itaque quas consequuntur totam laborum quae, est fuga? Explicabo non
+            temporibus eveniet eum facilis dicta ut qui cum?
+          </p>
+        </div>
+        <img src="images/new-app.svg" alt="" class="new-app__image" />
+        <aside class="shops shops-top">
+          <button class="shops__button top-google"></button>
+          <button class="shops__button top-apple"></button>
+        </aside>
+      </section>
+
+      <section class="cardset">
+        <h2 class="big-header cardset__header">
+          What do we do to help our customers in the digital era.
+        </h2>
+        <article class="card card-send" id="send">
+          <img src="images/fox-embroidered.svg" alt="" class="card__image" />
+          <h3 class="card__header">Send</h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
+            quidem corporis? Aliquam soluta consectetur ipsam, aut quasi itaque
+            quae?
+          </p>
+          <button class="card__button">Learn more</button>
+        </article>
+        <article class="card card-receive" id="receive">
+          <img src="images/fox-tie.svg" alt="" class="card__image" />
+          <h3 class="card__header">Receive</h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
+            quidem corporis? Aliquam soluta consectetur ipsam, aut quasi itaque
+            quae?
+          </p>
+          <button class="card__button">Learn more</button>
+        </article>
+        <article class="card card-buy" id="buy">
+          <img src="images/fox-laptop.svg" alt="" class="card__image" />
+          <h3 class="card__header">Buy</h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
+            quidem corporis? Aliquam soluta consectetur ipsam, aut quasi itaque
+            quae?
+          </p>
+          <button class="card__button">Learn more</button>
+        </article>
+      </section>
+
+      <section class="how" id="about">
+        <h3 class="how__header">How it works</h3>
+        <article class="how__content how__create">
+          <img src="images/plus.svg" alt="" class="how__icon" />
+          <h4 class="how__small-header">Create an account</h4>
+          <p class="how__text">Lorem ipsum dolor sit amet consectetur.</p>
+        </article>
+        <article class="how__content how__get">
+          <img src="images/shield.svg" alt="" class="how__icon" />
+          <h4 class="how__small-header">Get authorization</h4>
+          <p class="how__text">Lorem ipsum dolor sit amet consectetur.</p>
+        </article>
+        <article class="how__content how__enjoy">
+          <img src="images/smile.svg" alt="" class="how__icon" />
+          <h4 class="how__small-header">Enjoy the app</h4>
+          <p class="how__text">Lorem ipsum dolor sit amet consectetur.</p>
+        </article>
+      </section>
+
+      <section class="carousel">
+        <input
+          type="radio"
+          id="button-1"
+          name="buttons-set"
+          checked
+          class="carousel__button"
+        />
+        <input
+          type="radio"
+          id="button-2"
+          name="buttons-set"
+          class="carousel__button"
+        />
+        <input
+          type="radio"
+          id="button-3"
+          name="buttons-set"
+          class="carousel__button"
+        />
+
+        <button class="carousel__arrows"></button>
+
+        <h3 class="carousel__header">What the fox says</h3>
+
+        <aside class="carousel__gallery">
+          <article class="carousel__item">
+            <img src="images/fox1.png" alt="" class="carousel__image" />
+            <figure class="carousel__figure">
+              <blockquote class="carousel__quote">
+                I am sure, that lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Beatae explicabo, iusto libero, reprehenderit
+                mollitia ratione quia aspernatur adipisci doloremque eum at.
+                Distinctio, laborum sapiente.
+              </blockquote>
+              <figcaption class="carousel__caption">Foxy</figcaption>
+            </figure>
+            <label for="button-2" class="carousel__label label-right"></label>
+          </article>
+
+          <article class="carousel__item">
+            <img src="images/fox2.svg" alt="" class="carousel__image" />
+            <figure class="carousel__figure">
+              <blockquote class="carousel__quote">
+                Absolutely, lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Illum mollitia aut, culpa suscipit repudiandae ipsam in
+                dignissimos maiores fugit explicabo id cumque, sapiente
+                nesciunt!
+              </blockquote>
+              <figcaption class="carousel__caption">Proud fox</figcaption>
+            </figure>
+            <label for="button-1" class="carousel__label label-left"></label>
+            <label for="button-3" class="carousel__label label-right"></label>
+          </article>
+
+          <article class="carousel__item">
+            <img src="images/fox3.png" alt="" class="carousel__image" />
+            <figure class="carousel__figure">
+              <blockquote class="carousel__quote">
+                Agree, lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Excepturi deleniti dicta reprehenderit ea, culpa placeat rerum
+                quibusdam autem, doloremque atque labore nemo ab velit.
+              </blockquote>
+              <figcaption class="carousel__caption">Some other fox</figcaption>
+            </figure>
+            <label for="button-2" class="carousel__label label-left"></label>
+          </article>
+        </aside>
+      </section>
+
+      <section class="download">
+        <img src="images/download.png" alt="" class="download__image" />
+        <h3 class="download__header">Download app to enjoy more!</h3>
+        <p class="download__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eveniet
+          nisi perferendis! Earum consectetur ab fuga qui praesentium amet,
+          error eos ad officia?
+        </p>
+        <aside class="shops shops-bottom">
+          <button class="shops__button bottom-google"></button>
+          <button class="shops__button bottom-apple"></button>
+        </aside>
+      </section>
+
+      <footer class="footer" id="contact">
+        <div class="footer__main">
+          <img
+            src="images/header-white.svg"
+            alt=""
+            class="footer__head-image"
+          />
+          <article class="footer__content">
+            <h3 class="footer__header">Quick links</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="#">Sign Up</a></li>
+              <li class="footer__list-item"><a href="#about">About Us</a></li>
+            </ul>
+          </article>
+          <article class="footer__content">
+            <h3 class="footer__header">Others</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="#">User FAQs</a></li>
+              <li class="footer__list-item"><a href="#">Contact Us</a></li>
+              <li class="footer__list-item"><a href="#">Legal</a></li>
+              <li class="footer__list-item"><a href="#">Privacy Policy</a></li>
+              <li class="footer__list-item">
+                <a href="#">Terms and Conditions</a>
+              </li>
+            </ul>
+          </article>
+          <article class="footer__content">
+            <h3 class="footer__header">Products</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="#send">Send</a></li>
+              <li class="footer__list-item"><a href="#receive">Receive</a></li>
+              <li class="footer__list-item"><a href="#buy">Buy</a></li>
+            </ul>
+          </article>
+          <article class="footer__subscribe">
+            <p class="footer__text">
+              Subscribe to our newsletter and be the first to know about our
+              updates
+            </p>
+            <form action="#" class="footer__form">
+              <input
+                type="email"
+                class="footer__email input"
+                placeholder="Email Address"
+              />
+              <button class="footer__button input">Subscribe</button>
+            </form>
+          </article>
+        </div>
+        <div class="footer__footer">
+          <img src="images/media.svg" alt="" class="footer__image" />
+          <p class="footer__copyright">
+            Foxminded © 2023. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
